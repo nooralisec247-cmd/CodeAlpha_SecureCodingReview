@@ -1,0 +1,12 @@
+import hashlib
+username = input("Enter username: ")
+password = input("Enter password: ")
+
+if username == "admin" and password == "12345":
+    print("Login Successful")
+else:
+    print("Access Denied")
+
+user_input = input("Enter a calculation: ")
+result = eval(user_input)
+print(result)
